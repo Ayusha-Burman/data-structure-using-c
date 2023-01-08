@@ -52,6 +52,11 @@ void createList(int n)
         printf("Unable to allocate memory.");
         exit(0);
     }
+    if (n==0)
+    {
+        printf("Unable to run the program. Assign a valid number");
+        exit(0);
+    }
 
 
     // Input data of node from the user

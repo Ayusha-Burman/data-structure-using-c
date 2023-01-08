@@ -207,7 +207,7 @@ void search()
         {
             if(ptr->data==item)
             {
-                printf("Item found at position %d",(i+1));
+                printf("Item found at positions %d",(i+1));
                 flag = 0;
                 break;
             }
