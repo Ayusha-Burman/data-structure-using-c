@@ -27,11 +27,11 @@ int main()
     }
     if(flag==0)
     {
-       printf("%s is not a palindrome word", str);
+       printf("%s is not a palindrome word.", str);
     }
     else
     {
-     printf("%s is a palindrome word", str);
+     printf("%s is a palindrome word.", str);
     }
     return 0;
 }
